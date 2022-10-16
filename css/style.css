@@ -1,0 +1,48 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.jumbotron.m-3 img {
+    width: 250px;
+    border: 5px solid brwo;
+}
+
+hr {
+    width: 300px;
+    border-top: 3px solid rgb(114, 113, 113);
+}
+
+section {
+    min-height: 600px;
+}
+
+.portfolio {
+    background-color: #eee;
+}
+
+.kontak {
+    min-height: 800px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    padding-top: 40px; /* untuk memberi jarak dari atas agar tiak terlalu mepet keatas */
+    background-color: #333;
+}
+
+footer p {
+    color: #eee;
+    font-size: 0.9em;
+}
+
+.col-sm-12 a {
+    text-decoration: none;
+}
