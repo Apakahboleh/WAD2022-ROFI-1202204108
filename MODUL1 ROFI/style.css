@@ -1,0 +1,67 @@
+body {
+    font-family: poppins;
+}
+
+.tentangkami {
+    padding: 5rem 4rem;
+    margin-bottom: 2rem;
+    background-color: #849eb9a2;
+}
+/* 
+.lokasi {
+    padding: 1cm 1cm;
+    margin-bottom: 2rem;
+} */
+
+.jenis-mobil {
+    background-color: #849eb9a2;
+    padding: 2cm 2cm;
+    margin-bottom: 2rem;
+}
+
+.pendaftaran {
+    padding: 2cm 2cm;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+body {
+    padding-bottom: 20px;
+}
+
+iframe {
+    margin-bottom: 7cm;
+}
+
+.lokasi {
+    margin-top: 260px;
+}
+
+.ket1, .ket2 {
+    text-align: justify;
+}
+
+li {
+    color :#3535d3;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+footer {
+    width:100%;
+    height:100px;
+    padding-top: 10px;
+    bottom: auto;
+    left:0;
+    background:#849eb9a2;
+    position: absolute;
+}
+
+.modal li {
+    margin-bottom: 15px;
+    color: black;
+}
