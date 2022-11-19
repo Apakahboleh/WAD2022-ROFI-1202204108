@@ -44,7 +44,8 @@
             <div class="img">
                 <div class="row">
                     <div class="col">
-                        <img src="gambar<?= $_GET["gambar"]; ?>" alt="">
+                        <img src="gambar/<?= $_GET["gambar"]; ?>" alt="">
+                        <!-- kurang / pada gambar jadi src gambar tidak terpanggil -->
                     </div>
                 </div>
             </div>
@@ -89,7 +90,7 @@
 
                             <div class="mb-3">
                                 <label for="duration" class="form-label">Duration (Days)</label>
-                                <input type="text" class="form-control" name="duration" id="duration">
+                                <input type="number" class="form-control" name="duration" id="duration">
                             </div>
 
                             <div class="mt-4">

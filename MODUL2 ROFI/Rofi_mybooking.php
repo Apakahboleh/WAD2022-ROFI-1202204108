@@ -8,7 +8,8 @@
 
     $nama = $_POST["nama"];
     $date = $_POST["date"];
-    $start = $_POST["starts"];
+    $start = $_POST["start"];
+    // waktu yg dipanggil tidak ada karna kelebihan s
     $duration = $_POST["duration"];
 
     $tipe = $_POST["tipe"];
@@ -111,7 +112,8 @@
                             <td><?= rand(); ?></td>
                             <td><?= $nama; ?></td>
                             <td><?= $date, " ", $start; ?></td>
-                            <td><?= date("Y-m-d",time() + (60*60**24*$duration))," ", $start; ?></td>
+                            <td><?= date("Y-m-d",time() + (60*60*24*$duration))," ", $start; ?></td>
+                            <!-- perkalian dalam jam menjadi 2 kali berakibat waktu yg dikalikan dalam sehari 2 -->
                             <td><?= $tipe; ?></td>
                             <td><?= $hp; ?></td>
                             <td>
