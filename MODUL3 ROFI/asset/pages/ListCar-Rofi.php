@@ -58,7 +58,16 @@ $mobil = cek_car("SELECT * FROM showroom_rofi_table");
                         <img src="../images/<?= $car["foto_mobil"]; ?>" style="border-radius: 2%;" width="520px" alt="" class="card-img-top" alt="...">
                         <div class="item card-body">
                             <h5 class="card-title"><?= $car["merk_mobil"] ?></h5>
-                            <p class="card-text"><?= $car["deskripsi"] ?></p>
+                            <p class="card-text">
+                                <?php 
+                                $text = $car["deskripsi"];
+                                if ( strlen($text) > 5 ) {
+                                    $text = substr($text, 0, 50) . '...';
+                                    echo $text;
+                                }                            
+                                ?>
+
+                            </p>
                             <a href="Detail-Rofi.php?id=<?= $car["id_mobil"]; ?>&&gambar=<?= $car["foto_mobil"] ?>">
                                 <button style="width: 40%;" class="btn btn-primary">Detail</button>
                             </a>
