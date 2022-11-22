@@ -1,3 +1,4 @@
+
 <?php
 
 require "../config/connector.php";
@@ -5,6 +6,7 @@ require "../config/connector.php";
 $id_mobil = $_GET["id"];
 
 $car = cek_car("SELECT * FROM showroom_rofi_table WHERE id_mobil = $id_mobil ")[0];
+
 
 ?>
 
