@@ -1,0 +1,32 @@
+body {
+    font-family: poppins;
+}
+
+.wadah {
+    height: 30%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.for-link a {
+    color: white;
+    font-family: poppins;
+    margin-left: 30px;
+    font-size: large;
+}
+
+.linkhome {
+    margin-right: 30px;
+}
+
+.title {
+    margin-top: 5cm;
+}
+
+.tambah-title {
+    margin-top: 60px;
+}
+
+.item a button {
+    width: 100%;
+}
