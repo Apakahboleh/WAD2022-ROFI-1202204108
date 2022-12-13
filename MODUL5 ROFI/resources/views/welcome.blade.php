@@ -1,6 +1,6 @@
-@extends("partials.layouts")
+    @extends("partials.layouts")
 
-@section("content")
+    @section("content")
 
 
-@endsection
+    @endsection
